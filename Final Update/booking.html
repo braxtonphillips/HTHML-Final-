@@ -1,0 +1,46 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+    <title>Booking Services</title>
+    <meta charset="utf-8">
+    <meta name= "viewport" content = "width=device-width, initial-scale = 1.0">
+    <link rel = "stylesheet" href = "personalwebsite.css">
+</head>
+<body>  
+<div id ="wrapper">
+    <header><h1>Book Braxton or a Band</h1></header>
+    </div>
+<nav>
+    <a href = "Home.html"> Home |</a> &nbsp;
+    <a href = "about.html"> About Braxton |</a> &nbsp;
+    <a href = "resources.html"> Educational Resources |</a> &nbsp;
+    <a href = "booking.html"> Book Musicians |</a> &nbsp;
+    <a href = "orgs.html"> Organizations |</a> &nbsp;
+    <a href = "connect.html"> Connect </a> &nbsp;
+</nav>
+<main>
+    <h2>Please Indicate Booking Preference</h2>
+    <form>
+        <input type="radio" id="Braxton" name="pref" value="Braxton">
+        Braxton<br>
+        <input type="radio" id="Band" name="pref" value="Band">
+        Braxton with Band<br>
+    </form>
+    <h3>Fill Out All Fields</h3>
+    <form action="submit.html">
+        <label for = "fname">First name:</label><br>
+        <input type = "text" id= "fname" name = "fname" required><br>
+        <label for = "lname">Last name:</label><br>
+        <input type = "text" id = "lname" name = "lname" required><br>
+        <label for = "email"> Email </label><br>
+        <input type = "text" id = "email" name = "email" required><br>
+        Requests (Music, Instrumentation, Occasion, etc.):<br>
+        <textarea name="comments" id="comments"></textarea><br><br>
+        <input type="submit" id = "Sumbit" value="Submit"  >
+    </form>
+</main>
+    <footer>
+        <p> Designed by Braxton Phillips &copy; 2020</p>
+    </footer>
+</body>
+</html>
